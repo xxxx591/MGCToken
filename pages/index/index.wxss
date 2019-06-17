@@ -1,0 +1,40 @@
+/**index.wxss**/
+ .banner{
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0; 
+ }
+ .banner image{
+   width: 100%;
+   height: 100%;
+ }
+ .submit {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 94rpx;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+  margin-top: 50rpx;
+}
+
+.submit text {
+  z-index: 999;
+  width: 100%;
+  line-height: 94rpx;
+  color: #fff;
+  background: #262525;
+}
+
+.submit image {
+  position: absolute;
+  left: 30rpx;
+  top: 0;
+  width: 690rpx;
+  height: 94rpx;
+}

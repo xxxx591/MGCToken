@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="banner">
+ <image src='/assets/images/banner.png'></image>
+</view>
+
+<button open-type="contact">
+  <view class='submit'>
+    <text>联系客服</text>
+  </view>
+</button>

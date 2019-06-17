@@ -1,0 +1,28 @@
+/* pages/question/question.wxss */.submit {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 94rpx;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+  margin-top: 50rpx;
+}
+
+.submit text {
+  z-index: 999;
+  width: 100%;
+  line-height: 94rpx;
+  color: #fff;
+  background: #262525;
+}
+
+.submit image {
+  position: absolute;
+  left: 30rpx;
+  top: 0;
+  width: 690rpx;
+  height: 94rpx;
+}

@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/question/question",
+    "pages/yaoqing/yaoqing"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "MGC-TOKEN",
+    "navigationBarTextStyle": "black"
+    
+  },
+  "tabBar": { 
+    "color": "#000",
+    "selectedColor": "#278BEF",
+    "list": [
+      {
+        "pagePath": "pages/question/question",
+        "text": "常见问题",
+        "iconPath": "assets/images/index.png",
+        "selectedIconPath": "assets/images/index.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "加入我们",
+        "iconPath": "assets/images/index.png",
+        "selectedIconPath": "assets/images/index.png"
+      },
+      {
+        "pagePath": "pages/yaoqing/yaoqing",
+        "text": "邀请码",
+        "iconPath": "assets/images/index.png",
+        "selectedIconPath": "assets/images/index.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

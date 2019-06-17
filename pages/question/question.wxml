@@ -1,0 +1,6 @@
+<!--pages/question/question.wxml-->
+<button open-type="contact">
+  <view class='submit'>
+    <text>联系客服</text>
+  </view>
+</button>

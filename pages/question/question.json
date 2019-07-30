@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "van-collapse": "../vant-weapp/lib/collapse/index",
+    "van-collapse-item": "../vant-weapp/lib/collapse-item/index"
+  }
 }

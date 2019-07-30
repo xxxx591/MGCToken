@@ -1,6 +1,28 @@
 <!--pages/question/question.wxml-->
-<button open-type="contact">
-  <view class='submit'>
-    <text>联系客服</text>
-  </view>
-</button>
+
+<view class="box">
+  <view>{{obj.tips0}}</view>
+  <view>　</view>
+  <view>{{obj.tips1}}</view>
+  <view>{{obj.tips2}}</view>
+  <view>　</view>
+  <view>{{obj.tips3}}</view>
+  <view>　</view>
+  <view>{{obj.tips4}}</view>
+  <view>{{obj.tips5}}</view>
+  <view>{{obj.tips6}}</view>
+  <view>{{obj.tips7}}</view>
+  <view>{{obj.tips8}}</view>
+  <view>{{obj.tips9}}</view>
+  <view>　</view>
+  <view>{{obj.tips10}}</view>
+  <view>{{obj.tips11}}</view>
+  <view>　</view>
+  <view>{{obj.tips12}}</view>
+</view>
+<view class="btn" bindtap="initAgain">
+  <text>换一句情话</text>
+</view>
+<view class='submit' bindtap='getVerificationCode'>
+  <text>点击复制</text>
+</view>

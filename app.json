@@ -8,33 +8,8 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#ffffff",
-    "navigationBarTitleText": "MGC-TOKEN",
+    "navigationBarTitleText": "给乐乐的每日情话",
     "navigationBarTextStyle": "black"
-    
-  },
-  "tabBar": { 
-    "color": "#000",
-    "selectedColor": "#278BEF",
-    "list": [
-      {
-        "pagePath": "pages/question/question",
-        "text": "常见问题",
-        "iconPath": "assets/images/index.png",
-        "selectedIconPath": "assets/images/index.png"
-      },
-      {
-        "pagePath": "pages/index/index",
-        "text": "加入我们",
-        "iconPath": "assets/images/index.png",
-        "selectedIconPath": "assets/images/index.png"
-      },
-      {
-        "pagePath": "pages/yaoqing/yaoqing",
-        "text": "邀请码",
-        "iconPath": "assets/images/index.png",
-        "selectedIconPath": "assets/images/index.png"
-      }
-    ]
   },
   "sitemapLocation": "sitemap.json"
 }

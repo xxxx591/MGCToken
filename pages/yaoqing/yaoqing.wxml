@@ -14,7 +14,7 @@
     <view>
       <button open-type="contact">
         <view class='submit'>
-          <text>联系客服</text>
+          <text>联系我们</text>
         </view>
       </button>
     </view>
